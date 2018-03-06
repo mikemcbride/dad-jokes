@@ -5,13 +5,13 @@ const meow = require('meow')
 const dadJokes = require('./')
 
 const cli = meow(`
-	Examples,
+	Examples
 	  $ dad-jokes
 	  The shovel was a ground-breaking invention.
 
 	  $ dad-jokes --all
 	  Did you hear about the restaurant on the moon? Great food, no atmosphere.
-    What do you call a fake noodle? An Impasta.
+    What do you call a fake noodle? An impasta.
     How many apples grow on a tree? All of them.
 	  ...
 
