@@ -1,0 +1,32 @@
+{
+  "name": "dad-jokes",
+  "version": "1.0.0",
+  "description": "Everybody loves dad jokes... right?",
+  "bin": "cli.js",
+  "engines": "node >= 4",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikemcbride/dad-jokes.git"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "jokes.json"
+  ],
+  "keywords": [
+    "cli",
+    "cli-app",
+    "dad-joke",
+    "joke",
+    "jokes",
+    "dad",
+    "funny"
+  ],
+  "author": "mikemcbride",
+  "license": "MIT",
+  "dependencies": {
+    "meow": "^4.0.0",
+    "unique-random-array": "^1.0.0"
+  }
+}
