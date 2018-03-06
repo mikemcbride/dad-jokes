@@ -1,5 +1,5 @@
 {
-  "name": "dad-jokes",
+  "name": "@mikemcbride/dad-jokes",
   "version": "1.0.0",
   "description": "Everybody loves dad jokes... right?",
   "bin": "cli.js",
