@@ -1,0 +1,14 @@
+name: Continuous Integration
+on: push
+
+jobs:
+  sample-joke:
+    name: Tell me a joke
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: npm install
+        run: npm install
+      - name: joke
+        run: node cli.js
+ 
