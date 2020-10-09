@@ -61,4 +61,4 @@ $ dad-jokes --help
 
 ## License
 
-MIT © [Mike McBride](https://mikes.website)
+MIT © [Mike McBride](https://mikemcbride.dev)
