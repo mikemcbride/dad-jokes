@@ -1,4 +1,4 @@
-[  
+export default [  
   "Did you hear about the restaurant on the moon? Great food, no atmosphere.",
   "What do you call a fake noodle? An impasta.",
   "How many apples grow on a tree? All of them.",
