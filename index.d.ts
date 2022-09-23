@@ -7,6 +7,6 @@ interface DadJoke {
     random: () => Joke
 }
 
-let dadJoke: DadJoke;
+const dadJoke: DadJoke;
 
 export = dadJoke;
