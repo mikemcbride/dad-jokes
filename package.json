@@ -1,6 +1,6 @@
 {
     "name": "@mikemcbride/dad-jokes",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "Everybody loves dad jokes... right?",
     "bin": "cli.js",
     "engines": "node >= 12",
