@@ -1,8 +1,6 @@
 #!/usr/bin/env node
-'use strict'
-
-const meow = require('meow')
-const dadJokes = require('./')
+import meow from 'meow'
+import dadJokes from './index.js'
 
 const cli = meow(`
 	Examples
@@ -17,6 +15,8 @@ const cli = meow(`
 
 	Options
 	  --all   Get all jokes instead of a random joke
-`)
+`, {
+        importMeta: import.meta
+    })
 
 console.log(cli.flags.all ? dadJokes.all.join('\n') : dadJokes.random())

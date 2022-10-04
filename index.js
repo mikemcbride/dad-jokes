@@ -1,7 +1,7 @@
-'use strict'
+import uniqueRandomArray from 'unique-random-array'
+import jokes from './jokes.js'
 
-const uniqueRandomArray = require('unique-random-array')
-const jokes = require('./jokes.json')
-
-exports.all = jokes
-exports.random = uniqueRandomArray(jokes)
+export default {
+    all: jokes,
+    random: uniqueRandomArray(jokes)
+}
