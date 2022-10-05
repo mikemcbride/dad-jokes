@@ -2,7 +2,7 @@
 
 > Everybody loves dad jokes... right?
 
-The jokes list is just a [JSON file](jokes.json) and can be used wherever. PRs welcome if you've got a good dad joke!
+The jokes list is just [a file](jokes.js) and can be used wherever. PRs welcome if you've got a good dad joke!
 
 ## Install
 
